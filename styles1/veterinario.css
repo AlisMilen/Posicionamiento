@@ -1,0 +1,35 @@
+		body{
+		background-color:lavender;
+		}
+		img{
+			margin:25px 45px 65px 25px;	
+		}
+		div.fixed{
+		position:fixed;
+		bottom: 0;
+		right:0;
+		width:150px;
+		border:3px solid black;
+		text-align:center;
+		}
+		h1{
+		position:static;
+		width:265px;
+		right: 45px;
+		border:3px solid purple;
+		text-align:center;
+		}
+		div.relative{
+			position: relative;
+			top: 75px;
+			right: 1px;
+		}
+		div.absolute{
+			position: absolute;
+			top: 60px;
+			right: 0;
+			width: 170px;
+			height: 100px;
+			border: 2px solid black;
+			text-align: center;
+		}
